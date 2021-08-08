@@ -1,16 +1,25 @@
-### Hi there 👋
+### Opaa salve, Eu sou o Vinycius ✔
 
-<!--
-**VinyciusAlmeida/VinyciusAlmeida** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+- Estou estudando em um curso Fullstack📚 ;
+- Tenho 17 anos;
 
-Here are some ideas to get you started:
+<div>
+  <a href="https://github.com/VinyciusAlmeida">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=VinyciusAlmeida&show_icons=true&theme=gray&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=VinyciusAlmeida&layout=compact&langs_count=7&theme=gray"/>
+</div>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+ <div style="display: inline_block"><br>
+  <img align="center" alt="Viny-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+  <img align="center" alt="Viny-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+  <img align="right" alt="Viny-gif" src="https://share-cdn.picrew.me/shareImg/org/202108/338224_mbnGV88I.png" height="180em">
+</div>
+  
+  ##
+  
+<div>
+  <a href = "mailto:vinyciusalmeida017@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=black" target="_blank"></a>
+ <a href="https://instagram.com/vinycius_sk8" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=black" target="_blank"></a>
+  <a href="https://www.linkedin.com/in/vinycius-almeida-35a252219/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=black" target="_blank"></a>
+  
+  </div>
