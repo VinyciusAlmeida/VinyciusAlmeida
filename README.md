@@ -12,7 +12,7 @@
  <div style="display: inline_block"><br>
   <img align="center" alt="Viny-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
   <img align="center" alt="Viny-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-  <img align="right" alt="Viny-gif" src="https://share-cdn.picrew.me/shareImg/org/202108/338224_mbnGV88I.png" height="180em">
+  <img align="right" alt="Viny-gif" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpj_1snjySOwktonybREfdAiwlNPc8ki8fvA&usqp=CAU" height="180em">
 </div>
   
   ##
