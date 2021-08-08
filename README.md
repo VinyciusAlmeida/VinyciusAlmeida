@@ -1,8 +1,5 @@
 ### Opaa salve, Eu sou o Vinycius ✔
 
-- Estou estudando em um curso Fullstack📚 ;
-- Tenho 17 anos;
-
 <div>
   <a href="https://github.com/VinyciusAlmeida">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=VinyciusAlmeida&show_icons=true&theme=gray&include_all_commits=true&count_private=true"/>
