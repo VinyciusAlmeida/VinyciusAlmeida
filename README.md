@@ -1,9 +1,9 @@
-### Opaa salve, Eu sou o Vinycius ✔
+### Ola me chamo Vinycius
 
 <div>
   <a href="https://github.com/VinyciusAlmeida">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=VinyciusAlmeida&show_icons=true&theme=gray&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=VinyciusAlmeida&layout=compact&langs_count=7&theme=gray"/>
+  <img height="160em" src="https://github-readme-stats.vercel.app/api?username=VinyciusAlmeida&show_icons=true&theme=gray&include_all_commits=true&count_private=true"/>
+  <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=VinyciusAlmeida&layout=compact&langs_count=7&theme=gray"/>
 </div>
 
  <div style="display: inline_block"><br>
