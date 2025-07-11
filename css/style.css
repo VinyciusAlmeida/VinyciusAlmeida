@@ -84,7 +84,7 @@ h2, a{
     }
 }/*Elemento cria animação de pulsação*/
 
-
+                /*Desktop*/
 
 /*Inicio Menu*/
 
@@ -178,7 +178,7 @@ h2, a{
         grid-template-columns: 1fr 2fr;
         gap: var(--spacing-xl);
         align-items: center;
-        margin: var(--spacing-xl) 0;
+        margin: 150px 0;
     }
 
     .imagemMinha{
@@ -220,9 +220,9 @@ h2, a{
         animation: fadeInUp 0.8s ease-in-out 0.4s both;
         position: relative;
         overflow: hidden;
-        font-size: 1.3rem;
-        text-align: justify;
-        padding: var(--spacing-xl);
+        font-size: 1.2rem;
+        text-align: center;
+        padding: var(--spacing-sm);
         margin: 0;
     }
 
@@ -260,7 +260,7 @@ h2, a{
         border-radius: var(--border-radius);
         box-shadow: var(--shadow-soft);
         animation: fadeInUp 0.8s ease-out 0.6s both;
-        margin: var(--spacing-xl) 0;
+        margin: 150px 10px;
         padding: var(--spacing-xl);
     }
 
@@ -322,8 +322,8 @@ h2, a{
         border-radius: var(--border-radius);
         box-shadow: var(--shadow-soft);
         animation: fadeInUp 0.8s ease-out 0.7s both;
-        margin: var(--spacing-xl) 0;
-        padding: var(--spacing-xl);
+        margin: 180px 0;
+        padding: 80px 120px;
     }
 
     .containerSoftSkills h2 {
@@ -342,7 +342,7 @@ h2, a{
     .softSkillItem {
         background: rgba(255, 255, 255, 0.05);
         border-radius: 20px;
-        padding: var(--spacing-xl);
+        padding: 50px;
         transition: var(--transition-smooth);
         border: 1px solid rgba(163, 197, 241, 0.2);
         text-align: center;
@@ -484,7 +484,7 @@ h2, a{
 
     .containerContato {
         animation: fadeInUp 0.8s ease-in-out 1s both;
-        margin: var(--spacing-xl) 0;
+        margin: 150px 0;
     }
 
     .containerContato h2 {
@@ -505,7 +505,7 @@ h2, a{
         background: linear-gradient(135deg, var(--cor-contato) 0%, #7a96c4 100%);
         border: 2px solid var(--cor-texto);
         border-radius: var(--border-radius);
-        padding: var(--spacing-xl);
+        padding: 5rem;
         box-shadow: var(--shadow-soft);
     }
 
@@ -549,8 +549,7 @@ h2, a{
         flex-direction: column;
         align-items: center;
         max-width: 700px;
-        margin: 0 auto;
-        padding: var(--spacing-xl);
+        margin: 0 120px 120px 120px;
     }
 
     .formContato input,
@@ -564,9 +563,9 @@ h2, a{
         backdrop-filter: blur(10px);
         transition: var(--transition-smooth);
         resize: vertical;
-        padding: var(--spacing-xl);
+        padding: var(--spacing-md);
         font-size: 20px;
-        margin-bottom: var(--spacing-xl);
+        margin-bottom: var(--spacing-xs);
     }
 
     .formContato textarea {
