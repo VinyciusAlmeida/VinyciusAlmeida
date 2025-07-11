@@ -223,7 +223,7 @@ h2, a{
         font-size: 1.2rem;
         text-align: center;
         padding: var(--spacing-sm);
-        margin: 0;
+        margin-left: 200px;
     }
 
     .containerSobre::before{
@@ -254,14 +254,21 @@ h2, a{
 
 /*Inicio Habilidades*/
 
+    #habilidades-section{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
     .containerHabilidades {
         background: linear-gradient(135deg, var(--cor-habilidades) 0%, #5a7299 100%);
         border: 2px solid var(--cor-texto);
         border-radius: var(--border-radius);
         box-shadow: var(--shadow-soft);
         animation: fadeInUp 0.8s ease-out 0.6s both;
-        margin: 150px 10px;
-        padding: var(--spacing-xl);
+        padding:var(--spacing-xl);
+        flex-direction: column;
+        display: flex;
+        justify-content: space-around;
     }
 
     .containerHabilidades h2 {
@@ -272,7 +279,7 @@ h2, a{
     }
     .habilidadesGrid {
         display: grid;
-        grid-template-columns: repeat(4, 1fr); /* 4 colunas fixas */
+        grid-template-columns: repeat(1, 1fr); /* 4 colunas fixas */
         gap: var(--spacing-xl);
         justify-items: center;
     }
@@ -282,7 +289,7 @@ h2, a{
         flex-direction: column;
         align-items: center;
         gap: var(--spacing-lg);
-        padding: var(--spacing-xl);
+        padding: var(--spacing-xs);
         background: rgba(255, 255, 255, 0.05);
         border-radius: 20px;
         transition: var(--transition-smooth);
@@ -322,8 +329,7 @@ h2, a{
         border-radius: var(--border-radius);
         box-shadow: var(--shadow-soft);
         animation: fadeInUp 0.8s ease-out 0.7s both;
-        margin: 180px 0;
-        padding: 80px 120px;
+        padding: 50px;
     }
 
     .containerSoftSkills h2 {
@@ -335,17 +341,19 @@ h2, a{
 
     .softSkillsGrid {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
         gap: var(--spacing-xl);
     }
 
     .softSkillItem {
         background: rgba(255, 255, 255, 0.05);
         border-radius: 20px;
-        padding: 50px;
+        padding: 25px;
         transition: var(--transition-smooth);
         border: 1px solid rgba(163, 197, 241, 0.2);
-        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
     }
 
     .softSkillItem:hover {
@@ -355,7 +363,7 @@ h2, a{
     }
 
     .softSkillIcon {
-        font-size: 3rem;
+        font-size: 2rem;
         margin-bottom: var(--spacing-lg);
     }
 
@@ -382,7 +390,7 @@ h2, a{
         box-shadow: var(--shadow-soft);
         animation: fadeInUp 0.8s ease-in-out 0.8s both;
         padding: var(--spacing-xl);
-        margin: var(--spacing-xl) 0;
+        margin: 250px 100px;
     }
 
     .containerProjetos h2 {
@@ -658,8 +666,6 @@ h2, a{
         background: rgba(255, 255, 255, 0.1);
         backdrop-filter: blur(10px);
         padding: var(--spacing-sm);
-        width: 50px;
-        height: 50px;
     }
 
     .containerRodape a:hover {
