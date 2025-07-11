@@ -322,15 +322,15 @@ h2, a{
         border-radius: var(--border-radius);
         box-shadow: var(--shadow-soft);
         animation: fadeInUp 0.8s ease-out 0.7s both;
-        margin: var(--spacing-xxl) 0;
-        padding: var(--spacing-xxl);
+        margin: var(--spacing-xl) 0;
+        padding: var(--spacing-xl);
     }
 
     .containerSoftSkills h2 {
         text-align: center;
         font-size: 2.2rem;
         font-weight: 700;
-        margin-bottom: var(--spacing-xxl);
+        margin-bottom: var(--spacing-xl);
     }
 
     .softSkillsGrid {
@@ -342,7 +342,7 @@ h2, a{
     .softSkillItem {
         background: rgba(255, 255, 255, 0.05);
         border-radius: 20px;
-        padding: var(--spacing-xxl);
+        padding: var(--spacing-xl);
         transition: var(--transition-smooth);
         border: 1px solid rgba(163, 197, 241, 0.2);
         text-align: center;
@@ -497,7 +497,7 @@ h2, a{
     .contatoWrapper {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: var(--spacing-xxl);
+        gap: var(--spacing-xl);
         align-items: start;
     }
 
@@ -505,7 +505,7 @@ h2, a{
         background: linear-gradient(135deg, var(--cor-contato) 0%, #7a96c4 100%);
         border: 2px solid var(--cor-texto);
         border-radius: var(--border-radius);
-        padding: var(--spacing-xxl);
+        padding: var(--spacing-xl);
         box-shadow: var(--shadow-soft);
     }
 
@@ -900,7 +900,7 @@ h2, a{
         border-radius: var(--border-radius);
         box-shadow: var(--shadow-soft);
         animation: fadeInUp 0.8s ease-out 0.7s both;
-        margin: var(--spacing-xxl) var(--spacing-sm);
+        margin: var(--spacing-xl) var(--spacing-sm);
         padding: var(--spacing-xl);
     }
 
@@ -1020,7 +1020,7 @@ h2, a{
 
     .btnProjeto {
         padding: var(--spacing-xs) var(--spacing-md);
-        background: linear-gradient(135, #0077ff 0%, #005fd1 100%);
+        background: linear-gradient(135deg, #0077ff 0%, #005fd1 100%);
         color: white !important;
         border-radius: 8px;
         font-size: 0.9rem;
@@ -1469,6 +1469,66 @@ h2, a{
     }
     /*Fim Habilidades*/
 
+    /*Inicio Soft Skills*/
+    .containerSoftSkills {
+        background: linear-gradient(135deg, var(--cor-soft-skills) 0%, #6b8bb3 100%);
+        border: 2px solid var(--cor-texto);
+        border-radius: var(--border-radius);
+        box-shadow: var(--shadow-soft);
+        animation: fadeInUp 0.8s ease-out 0.7s both;
+        margin: 120px 0;
+        padding: var(--spacing-xl);
+    }
+
+    .containerSoftSkills h2 {
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 700;
+        margin-bottom: var(--spacing-xl);
+    }
+
+    .softSkillsGrid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: var(--spacing-xl);
+    }
+
+    .softSkillItem {
+        background: rgba(255, 255, 255, 0.05);
+        border-radius: 16px;
+        padding: var(--spacing-sm);
+        transition: var(--transition-smooth);
+        border: 1px solid rgba(163, 197, 241, 0.2);
+        text-align: center;
+        margin: 20px;
+    }
+
+    .softSkillItem:hover {
+        transform: translateY(-6px);
+        background: rgba(255, 255, 255, 0.15);
+        box-shadow: var(--shadow-hover);
+    }
+
+    .softSkillIcon {
+        font-size: 2rem;
+        margin-bottom: var(--spacing-lg);
+    }
+
+    .softSkillItem h3 {
+        color: var(--cor-texto);
+        font-size: 1.3rem;
+        font-weight: 600;
+        margin-bottom: var(--spacing-sm);
+    }
+
+    .softSkillItem p {
+        color: rgba(255, 255, 255, 0.9);
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+
+    /*Fim Soft Skills*/
+
     /*Inicio Projetos*/
     .containerProjetos{
         background: linear-gradient(135deg, var(--cor-projetos) 0%, #5a7299 100%);
@@ -1587,15 +1647,62 @@ h2, a{
         margin-bottom: var(--spacing-xl);
     }
 
+    .contatoWrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: var(--spacing-xl);
+        align-items: start;
+    }
+
+    .contatoMotivos {
+        background: linear-gradient(135deg, var(--cor-contato) 0%, #7a96c4 100%);
+        border: 2px solid var(--cor-texto);
+        border-radius: var(--border-radius);
+        padding: var(--spacing-xs);
+        box-shadow: var(--shadow-soft);
+    }
+
+    .contatoMotivos h3 {
+        color: var(--cor-texto);
+        font-size: 1.6rem;
+        font-weight: 700;
+        margin-bottom: var(--spacing-lg);
+        text-align: center;
+    }
+
+    .motivoItem {
+        display: flex;
+        gap: var(--spacing-md);
+        margin-bottom: var(--spacing-lg);
+        align-items: flex-start;
+    }
+
+    .motivoIcon {
+        font-size: 2rem;
+        flex-shrink: 0;
+    }
+
+    .motivoItem h4 {
+        color: var(--cor-texto);
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin-bottom: var(--spacing-xs);
+    }
+
+    .motivoItem p {
+        color: rgba(255, 255, 255, 0.9);
+        font-size: 0.95rem;
+        line-height: 1.5;
+    }
+
     .formContato{
         font-family: "Montserrat", sans-serif;
         display: flex;
-        gap: var(--spacing-lg);
+        gap: var(--spacing-xs);
         flex-direction: column;
         align-items: center;
         max-width: 600px;
-        margin: 0 auto;
-        padding: var(--spacing-lg);
+        padding: var(--spacing-xs);
     }
 
     .formContato input,
