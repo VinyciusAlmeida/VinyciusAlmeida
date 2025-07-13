@@ -697,6 +697,10 @@ h2, a{
             /*Celular*/
 
 @media screen and (max-width:767px) {
+    .marginSite{
+        margin: 4% 8%;
+        transition: var(--transition-smooth);
+    }
     /*Inicio Menu*/
     .containerMenu{
         color: var(--cor-texto);
